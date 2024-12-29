@@ -1,0 +1,86 @@
+body{
+    background: linear-gradient(90deg, #0040ff 0%, #34bef9 100%);
+} 
+p{
+    color: black;
+}
+.navbar-light .navbar-nav .nav-link.active{
+   color: rgb(54, 85, 223);
+}
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand{
+    color: white;
+}
+.navbar-brand>img{
+    width: 40px;
+
+}
+.navbar-light .navbar-toggler{
+   background-color: white;
+}
+ a{
+    text-decoration: none;
+    color:black;
+}
+.nav-right{
+    background: linear-gradient(999deg, #0040ff 0%, #34bef9 100%);
+}
+
+.card{
+    background: linear-gradient(999deg, #6988e7 0%, #34bef9 100%);
+}
+.card a h5{
+    color: rgb(83, 108, 138);
+}
+.card a p, 
+.btn{
+    color: indigo;
+}
+.slide-text{
+    color: indigo;
+    margin: auto auto;
+    padding: right;
+}
+.footer-Text{
+    color: darkslategray;
+    margin: auto auto;
+}
+footer,
+.btn-outline-primary{
+    background: linear-gradient(270deg, #2f4a9c 0%, #34bef9 100%);
+}
+.phone-animation{
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+@media( max-width:750px ){
+    .carousel-indicators{
+        display: none;
+    }
+}
